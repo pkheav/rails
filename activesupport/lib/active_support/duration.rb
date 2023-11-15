@@ -433,6 +433,7 @@ module ActiveSupport
     end
     alias :from_now :since
     alias :after :since
+    alias :later :since
 
     # Calculates a new Time or Date that is as far in the past
     # as this Duration represents.
